@@ -1,0 +1,24 @@
+{
+    "name": "openpsa/org-openpsa-helpers",
+    "type": "midcom-package",
+    "description": "OpenPSA helpers for AJAX and workgroup filtering, and some common housekeeping tasks",
+    "keywords": ["midcom", "openpsa", "helpers"],
+    "homepage": "https://openpsa2.org",
+    "license": "LGPL-2.1-or-later",
+    "authors": [
+        {
+            "name": "Andreas Flack",
+            "email": "flack@contentcontrol-berlin.de",
+            "homepage": "http://www.contentcontrol-berlin.de/"
+        }
+    ],
+    "require": {
+        "openpsa/midcom-core": "dev-main",
+        "openpsa/org-openpsa-core": "dev-main"
+    },
+    "prefer-stable": true,
+    "minimum-stability": "dev",
+    "autoload": {
+        "classmap": ["lib"]
+    }
+}
